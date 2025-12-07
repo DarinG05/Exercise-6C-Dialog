@@ -1,1 +1,14 @@
-{"inkVersion":21,"root":[["^Once upon a time...I do not know what to write here","\n",{"->":"Choices"},["done",{"#f":5,"#n":"g-0"}],null],"done",{"Choices":[[["ev",{"^->":"Choices.0.0.$r1"},{"temp=":"$r"},"str",{"->":".^.s"},[{"#n":"$r1"}],"/str","/ev",{"*":".^.^.c-0","flg":18},{"s":["^go on...",{"->":"$r","var":true},null]}],["ev",{"^->":"Choices.0.1.$r1"},{"temp=":"$r"},"str",{"->":".^.s"},[{"#n":"$r1"}],"/str","/ev",{"*":".^.^.c-1","flg":18},{"s":["^dont go on... ",{"->":"$r","var":true},null]}],{"c-0":["ev",{"^->":"Choices.0.c-0.$r2"},"/ev",{"temp=":"$r"},{"->":".^.^.0.s"},[{"#n":"$r2"}],"\n",{"->":"Con"},{"#f":5}],"c-1":["ev",{"^->":"Choices.0.c-1.$r2"},"/ev",{"temp=":"$r"},{"->":".^.^.1.s"},[{"#n":"$r2"}],"\n",{"->":".^.^.^"},{"#f":5}]}],{"#f":1}],"Con":["^Okay go get me a water bottle.","\n","end",{"#f":1}],"#f":1}],"listDefs":{}}
+
+Once upon a time...I do not know what to write here 
+
+->Choices 
+==Choices==
+ * go on...
+ -> Con
+ * dont go on... 
+ ->Choices
+ 
+ ==Con==
+ Okay go get me a water bottle. 
+ 
+    -> END
